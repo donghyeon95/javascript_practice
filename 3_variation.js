@@ -63,4 +63,4 @@ console.log(ob[symbolProperty] === 'value');
 console.log(typeof symbolProperty === 'symbol');
 
 console.log(ob);
-// {Symbol(key): "value"}
+//// {Symbol(key): "value"}
