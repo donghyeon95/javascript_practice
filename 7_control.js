@@ -124,6 +124,7 @@
 
 var obj = {a:1, b:2, c:3};
 for(var p in obj){
+    //
     console.log("obf." + p + "=" +obj[p]);
     // console.log(obj.p); 이거는 안됨.
 }
@@ -134,3 +135,4 @@ loop : for(var i = 0; i ,a.length; i++){
         if(a[i] == b[j]) break loop;
     }
 }
+console.log("a["+i+"] =b[" + j +"]");
