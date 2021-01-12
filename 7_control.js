@@ -124,7 +124,7 @@
 
 var obj = {a:1, b:2, c:3};
 for(var p in obj){
-    //
+    //s
     console.log("obf." + p + "=" +obj[p]);
     // console.log(obj.p); 이거는 안됨.
 }
